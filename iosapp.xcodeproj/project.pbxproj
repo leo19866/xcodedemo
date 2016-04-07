@@ -10,10 +10,10 @@
 		037416321CB67B620006EBAF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 037416311CB67B620006EBAF /* AppDelegate.swift */; };
 		037416341CB67B620006EBAF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 037416331CB67B620006EBAF /* ViewController.swift */; };
 		037416371CB67B620006EBAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 037416351CB67B620006EBAF /* Main.storyboard */; };
-		037416391CB67B620006EBAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 037416381CB67B620006EBAF /* Assets.xcassets */; };
 		0374163C1CB67B620006EBAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0374163A1CB67B620006EBAF /* LaunchScreen.storyboard */; };
 		037416471CB67B620006EBAF /* iosappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 037416461CB67B620006EBAF /* iosappTests.swift */; };
 		037416521CB67B620006EBAF /* iosappUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 037416511CB67B620006EBAF /* iosappUITests.swift */; };
+		037416601CB69AA20006EBAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0374165F1CB69AA20006EBAF /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +38,6 @@
 		037416311CB67B620006EBAF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		037416331CB67B620006EBAF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		037416361CB67B620006EBAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		037416381CB67B620006EBAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0374163B1CB67B620006EBAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0374163D1CB67B620006EBAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		037416421CB67B620006EBAF /* iosappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iosappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,6 +46,7 @@
 		0374164D1CB67B620006EBAF /* iosappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iosappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		037416511CB67B620006EBAF /* iosappUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iosappUITests.swift; sourceTree = "<group>"; };
 		037416531CB67B620006EBAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0374165F1CB69AA20006EBAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,8 +99,8 @@
 			children = (
 				037416311CB67B620006EBAF /* AppDelegate.swift */,
 				037416331CB67B620006EBAF /* ViewController.swift */,
+				0374165F1CB69AA20006EBAF /* Assets.xcassets */,
 				037416351CB67B620006EBAF /* Main.storyboard */,
-				037416381CB67B620006EBAF /* Assets.xcassets */,
 				0374163A1CB67B620006EBAF /* LaunchScreen.storyboard */,
 				0374163D1CB67B620006EBAF /* Info.plist */,
 			);
@@ -230,7 +230,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0374163C1CB67B620006EBAF /* LaunchScreen.storyboard in Resources */,
-				037416391CB67B620006EBAF /* Assets.xcassets in Resources */,
+				037416601CB69AA20006EBAF /* Assets.xcassets in Resources */,
 				037416371CB67B620006EBAF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
